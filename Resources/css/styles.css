@@ -103,19 +103,39 @@ header {
     margin-bottom: 15px;
 }
 
-#payment-form input[type=text] {
+#payment-form .payment-headline {
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+#payment-form .payment-headline * {
+    margin: 0;
+    text-align: left;
+}
+
+#payment-form .payment-headline h6 {
+    color: #777;
+    margin-top: 3px;
+}
+
+#payment-form input {
     display: block;
     height: 32px;
     padding: 6px 12px;
-    width: 80%;
+    width: 90%;
     border: none;
     background-color: #f3f3f3;
     font-size: large;
 }
 
-#payment-form .small-input[type=text] {
+#payment-form .small-input {
     display: inherit;
-    width: 40%;
+    width: 80%;
+}
+
+.small-input-div {
+    display: flex;
+    flex-direction: row;
 }
 
 #payment-form label {

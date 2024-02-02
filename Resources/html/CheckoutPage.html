@@ -27,7 +27,7 @@
                     <h4>Payment method</h3>
                     <h6>* Required fields</h5>
                 </div>
-                <form>
+                <form id="form" onsubmit="return false">
                     <div>
                         <label for="card-holder">Name on Card*</label>
                         <input type="text" id="card-holder" name="card-holder" placeholder="Card Holder"></input>
@@ -35,13 +35,13 @@
                     <div>
                         <label for="card">Card Number*</label>
                         <input type="text" id="card" name="card" placeholder="_ _ _ _  _ _ _ _  _ _ _ _  _ _ _ _"
-                            maxlength="16"></input>
+                            maxlength="19"></input>
                     </div>
                     <div class="small-input-div">
                         <div>
                             <label for="date">Expiration Date*</label>
                             <input type="text" id="date" name="date" placeholder="MM / YY" class="small-input"
-                                maxlength="4" />
+                                maxlength="5" />
                         </div>
                         <div>
                             <label for="cvv">CVV*</label>

@@ -130,7 +130,7 @@ header {
 
 #payment-form .small-input {
     display: inherit;
-    width: 80%;
+    width: 70%;
 }
 
 .small-input-div {
@@ -138,12 +138,26 @@ header {
     flex-direction: row;
 }
 
+.very-small-input-div {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+}
+
+.requierd-non-valid {
+    box-shadow: 0px 0px 5px 1px #f82626;
+}
+
+.requierd-valid {
+    box-shadow: 0px 0px 5px 1px rgb(1, 169, 1);
+}
+
 #payment-form label {
     display: block;
     text-align: left;
     padding: 6px 12px;
     color: #777;
-    font-size: smaller;
+    font-size: 70%;
 }
 
 #payment-form button {

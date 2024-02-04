@@ -33,7 +33,7 @@ function insertPaymentDetails() {
 
 
 function isNameValid(name) {
-    const regEx = /^[A-Za-z][A-Za-z0-9]*$/;
+    const regEx = /^[a-zA-Z]*$/;
     if (name.match(regEx)) {
         return true;
     }
